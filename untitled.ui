@@ -1,0 +1,832 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1111</width>
+    <height>551</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QGroupBox" name="groupBox">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>40</y>
+      <width>171</width>
+      <height>461</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string/>
+    </property>
+    <widget class="QPushButton" name="pushButton">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>40</y>
+       <width>131</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Mes clients</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_2">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>100</y>
+       <width>131</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Fournisseurs</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_5">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>160</y>
+       <width>131</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Mes facture</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_6">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>230</y>
+       <width>131</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Caisse</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_7">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>290</y>
+       <width>131</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Repport des ventes</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_8">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>350</y>
+       <width>131</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Repport des achats </string>
+     </property>
+    </widget>
+    <widget class="QStackedWidget" name="stackedWidget">
+     <property name="geometry">
+      <rect>
+       <x>150</x>
+       <y>150</y>
+       <width>120</width>
+       <height>80</height>
+      </rect>
+     </property>
+     <widget class="QWidget" name="page"/>
+     <widget class="QWidget" name="page_2"/>
+    </widget>
+    <widget class="QPushButton" name="pushButton_82">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>410</y>
+       <width>131</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Acceuil</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_2">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>110</y>
+      <width>211</width>
+      <height>301</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Produits</string>
+    </property>
+    <widget class="QPushButton" name="pushButton_9">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>20</y>
+       <width>191</width>
+       <height>71</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Liste des Produits</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_10">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>100</y>
+       <width>71</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Créer un
+ nouveau</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_11">
+     <property name="geometry">
+      <rect>
+       <x>90</x>
+       <y>100</y>
+       <width>71</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Mon stock</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_12">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>180</y>
+       <width>101</width>
+       <height>91</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Mouvement de 
+stock
+</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_17">
+     <property name="geometry">
+      <rect>
+       <x>130</x>
+       <y>250</y>
+       <width>75</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Autres</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_4">
+    <property name="geometry">
+     <rect>
+      <x>660</x>
+      <y>110</y>
+      <width>221</width>
+      <height>301</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Ventes</string>
+    </property>
+    <widget class="QPushButton" name="pushButton_19">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>20</y>
+       <width>181</width>
+       <height>71</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Historique</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_20">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>100</y>
+       <width>81</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Vente au
+comptoir</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_21">
+     <property name="geometry">
+      <rect>
+       <x>120</x>
+       <y>100</y>
+       <width>71</width>
+       <height>121</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Bon de 
+livraison</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_22">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>170</y>
+       <width>101</width>
+       <height>91</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Règler client</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_23">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>270</y>
+       <width>101</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Autres</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_24">
+     <property name="geometry">
+      <rect>
+       <x>120</x>
+       <y>232</y>
+       <width>75</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Facture</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_3">
+    <property name="geometry">
+     <rect>
+      <x>420</x>
+      <y>110</y>
+      <width>221</width>
+      <height>301</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Achats</string>
+    </property>
+    <widget class="QPushButton" name="pushButton_13">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>20</y>
+       <width>181</width>
+       <height>71</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Historique</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_14">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>100</y>
+       <width>71</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Bon de 
+réception</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_15">
+     <property name="geometry">
+      <rect>
+       <x>90</x>
+       <y>100</y>
+       <width>71</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Facture</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_16">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>180</y>
+       <width>101</width>
+       <height>91</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Règlement
+fournisseur
+</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_18">
+     <property name="geometry">
+      <rect>
+       <x>130</x>
+       <y>250</y>
+       <width>75</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Autres</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1111</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuDossier">
+    <property name="title">
+     <string>Dossier</string>
+    </property>
+    <widget class="QMenu" name="menuInfos_societe">
+     <property name="title">
+      <string>Infos societe</string>
+     </property>
+     <addaction name="actionEntet_et_pied_de_page"/>
+     <addaction name="actionInformation_piece"/>
+    </widget>
+    <widget class="QMenu" name="menuSauvegarder_restaurer">
+     <property name="title">
+      <string>Sauvegarder / restaurer</string>
+     </property>
+     <addaction name="actionSauvegarder"/>
+     <addaction name="actionrestaurer"/>
+    </widget>
+    <addaction name="actionNouveau"/>
+    <addaction name="actionOuvrir"/>
+    <addaction name="actionMes_dossiers"/>
+    <addaction name="actionSupprimer"/>
+    <addaction name="actionCloture_de_dossier"/>
+    <addaction name="menuInfos_societe"/>
+    <addaction name="actionUtilasateurs"/>
+    <addaction name="actionParam_tres"/>
+    <addaction name="menuSauvegarder_restaurer"/>
+   </widget>
+   <widget class="QMenu" name="menuListe">
+    <property name="title">
+     <string>Liste</string>
+    </property>
+    <addaction name="actionFournisseurs"/>
+    <addaction name="actionClient"/>
+    <addaction name="actionMode_de_paiment"/>
+    <addaction name="actionCompte"/>
+    <addaction name="actionNature_d_ponse"/>
+    <addaction name="actionR_gion"/>
+    <addaction name="actionWolaya"/>
+    <addaction name="actionLocalisation"/>
+   </widget>
+   <widget class="QMenu" name="menuProduit">
+    <property name="title">
+     <string>Produit</string>
+    </property>
+    <addaction name="actionNouveau_2"/>
+    <addaction name="actionListe"/>
+    <addaction name="actionFamille"/>
+    <addaction name="actionMarque"/>
+    <addaction name="actionTable_TVA"/>
+    <addaction name="actionStock_de_produit"/>
+   </widget>
+   <widget class="QMenu" name="menuAchat">
+    <property name="title">
+     <string>Achat</string>
+    </property>
+    <addaction name="actionBon_commande"/>
+    <addaction name="actionBon_dr_r_ception"/>
+    <addaction name="actionFacture"/>
+    <addaction name="actionRetoure_fournisseur"/>
+    <addaction name="actionFacture_groupment"/>
+    <addaction name="actionHistorique"/>
+    <addaction name="actionDetails_des_achats"/>
+    <addaction name="actionR_glement_fournisseur"/>
+   </widget>
+   <widget class="QMenu" name="menuVente">
+    <property name="title">
+     <string>Vente</string>
+    </property>
+    <addaction name="actionDevis_proforma"/>
+    <addaction name="actionBon_de_commende"/>
+    <addaction name="actionBon_de_livraison"/>
+    <addaction name="actionAu_comptoir"/>
+    <addaction name="actionFacture_2"/>
+    <addaction name="actionBon_de_retour"/>
+    <addaction name="actionFacture_d_voir"/>
+    <addaction name="actionD_tails_des_ventes"/>
+    <addaction name="actionReglement_client"/>
+    <addaction name="actionCommandes_non_livr_es"/>
+    <addaction name="actionValides_les_pieces"/>
+   </widget>
+   <widget class="QMenu" name="menuFacturation">
+    <property name="title">
+     <string>Facturation</string>
+    </property>
+    <addaction name="actionNouveau_3"/>
+    <addaction name="actionGroupement"/>
+    <addaction name="actionHistorique_2"/>
+   </widget>
+   <widget class="QMenu" name="menuTr_sorerie">
+    <property name="title">
+     <string>Trésorerie</string>
+    </property>
+    <addaction name="actionD_ponse"/>
+    <addaction name="actionHistorique_des_d_ponses"/>
+    <addaction name="actionCaisse"/>
+    <addaction name="actionBanque"/>
+    <addaction name="actionTransfert"/>
+    <addaction name="actionJournal_des_recettes_deponces"/>
+   </widget>
+   <widget class="QMenu" name="menuMudel">
+    <property name="title">
+     <string>Mudel</string>
+    </property>
+    <addaction name="actionCarte_de_fid_lite"/>
+    <addaction name="actionEtat_des_cheque_encaiss_s"/>
+    <addaction name="actionEtat_des_cheque_non_ancaisses"/>
+   </widget>
+   <widget class="QMenu" name="menuRepport">
+    <property name="title">
+     <string>Repport</string>
+    </property>
+    <addaction name="actionDettes"/>
+    <addaction name="actionCr_ances_Journal_des_achats"/>
+    <addaction name="actionD_claration_TVA_sur_achats"/>
+    <addaction name="actionD_claration_TVA_sur_ventes"/>
+   </widget>
+   <addaction name="menuDossier"/>
+   <addaction name="menuListe"/>
+   <addaction name="menuProduit"/>
+   <addaction name="menuAchat"/>
+   <addaction name="menuVente"/>
+   <addaction name="menuFacturation"/>
+   <addaction name="menuTr_sorerie"/>
+   <addaction name="menuMudel"/>
+   <addaction name="menuRepport"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionNouveau">
+   <property name="text">
+    <string>Nouveau</string>
+   </property>
+  </action>
+  <action name="actionOuvrir">
+   <property name="text">
+    <string>Ouvrir</string>
+   </property>
+  </action>
+  <action name="actionMes_dossiers">
+   <property name="text">
+    <string>Mes dossiers</string>
+   </property>
+  </action>
+  <action name="actionSupprimer">
+   <property name="text">
+    <string>Supprimer</string>
+   </property>
+  </action>
+  <action name="actionCloture_de_dossier">
+   <property name="text">
+    <string>Cloture de dossier</string>
+   </property>
+  </action>
+  <action name="actionUtilasateurs">
+   <property name="text">
+    <string>Utilasateurs</string>
+   </property>
+  </action>
+  <action name="actionParam_tres">
+   <property name="text">
+    <string>Paramètres</string>
+   </property>
+  </action>
+  <action name="actionEntet_et_pied_de_page">
+   <property name="text">
+    <string>Entet et pied de page</string>
+   </property>
+  </action>
+  <action name="actionInformation_piece">
+   <property name="text">
+    <string>Information piece</string>
+   </property>
+  </action>
+  <action name="actionSauvegarder">
+   <property name="text">
+    <string>Sauvegarder</string>
+   </property>
+  </action>
+  <action name="actionrestaurer">
+   <property name="text">
+    <string>restaurer</string>
+   </property>
+  </action>
+  <action name="actionFournisseurs">
+   <property name="text">
+    <string>Fournisseurs</string>
+   </property>
+  </action>
+  <action name="actionClient">
+   <property name="text">
+    <string>Client</string>
+   </property>
+  </action>
+  <action name="actionMode_de_paiment">
+   <property name="text">
+    <string>Mode de paiment</string>
+   </property>
+  </action>
+  <action name="actionCompte">
+   <property name="text">
+    <string>Compte</string>
+   </property>
+  </action>
+  <action name="actionNature_d_ponse">
+   <property name="text">
+    <string>Nature déponse</string>
+   </property>
+  </action>
+  <action name="actionR_gion">
+   <property name="text">
+    <string>Région</string>
+   </property>
+  </action>
+  <action name="actionWolaya">
+   <property name="text">
+    <string>Wolaya</string>
+   </property>
+  </action>
+  <action name="actionLocalisation">
+   <property name="text">
+    <string>Localisation</string>
+   </property>
+  </action>
+  <action name="actionNouveau_2">
+   <property name="text">
+    <string>Nouveau</string>
+   </property>
+  </action>
+  <action name="actionListe">
+   <property name="text">
+    <string>Liste</string>
+   </property>
+  </action>
+  <action name="actionFamille">
+   <property name="text">
+    <string>Famille</string>
+   </property>
+  </action>
+  <action name="actionMarque">
+   <property name="text">
+    <string>Marque</string>
+   </property>
+  </action>
+  <action name="actionTable_TVA">
+   <property name="text">
+    <string>Table TVA</string>
+   </property>
+  </action>
+  <action name="actionStock_de_produit">
+   <property name="text">
+    <string>Stock de produit</string>
+   </property>
+  </action>
+  <action name="actionBon_commande">
+   <property name="text">
+    <string>Bon commande</string>
+   </property>
+  </action>
+  <action name="actionBon_dr_r_ception">
+   <property name="text">
+    <string>Bon dr réception</string>
+   </property>
+  </action>
+  <action name="actionFacture">
+   <property name="text">
+    <string>Facture</string>
+   </property>
+  </action>
+  <action name="actionRetoure_fournisseur">
+   <property name="text">
+    <string>Retoure fournisseur</string>
+   </property>
+  </action>
+  <action name="actionFacture_groupment">
+   <property name="text">
+    <string>Facture groupment</string>
+   </property>
+  </action>
+  <action name="actionHistorique">
+   <property name="text">
+    <string>Historique</string>
+   </property>
+  </action>
+  <action name="actionDetails_des_achats">
+   <property name="text">
+    <string>Details des achats</string>
+   </property>
+  </action>
+  <action name="actionR_glement_fournisseur">
+   <property name="text">
+    <string>Règlement fournisseur</string>
+   </property>
+  </action>
+  <action name="actionDevis_proforma">
+   <property name="text">
+    <string>Devis / proforma</string>
+   </property>
+  </action>
+  <action name="actionBon_de_commende">
+   <property name="text">
+    <string>Bon de commende</string>
+   </property>
+  </action>
+  <action name="actionBon_de_livraison">
+   <property name="text">
+    <string>Bon de livraison</string>
+   </property>
+  </action>
+  <action name="actionAu_comptoir">
+   <property name="text">
+    <string>Au comptoir</string>
+   </property>
+  </action>
+  <action name="actionFacture_2">
+   <property name="text">
+    <string>Facture</string>
+   </property>
+  </action>
+  <action name="actionBon_de_retour">
+   <property name="text">
+    <string>Bon de retour</string>
+   </property>
+  </action>
+  <action name="actionFacture_d_voir">
+   <property name="text">
+    <string>Historique de ventes</string>
+   </property>
+  </action>
+  <action name="actionD_tails_des_ventes">
+   <property name="text">
+    <string>Détails des ventes</string>
+   </property>
+  </action>
+  <action name="actionReglement_client">
+   <property name="text">
+    <string>Reglement client</string>
+   </property>
+  </action>
+  <action name="actionCommandes_non_livr_es">
+   <property name="text">
+    <string>Commandes non livrées</string>
+   </property>
+  </action>
+  <action name="actionValides_les_pieces">
+   <property name="text">
+    <string>Valides les pieces </string>
+   </property>
+  </action>
+  <action name="actionNouveau_3">
+   <property name="text">
+    <string>Nouveau</string>
+   </property>
+  </action>
+  <action name="actionGroupement">
+   <property name="text">
+    <string>Groupement</string>
+   </property>
+  </action>
+  <action name="actionHistorique_2">
+   <property name="text">
+    <string>Historique</string>
+   </property>
+  </action>
+  <action name="actionD_ponse">
+   <property name="text">
+    <string>Déponse</string>
+   </property>
+  </action>
+  <action name="actionHistorique_des_d_ponses">
+   <property name="text">
+    <string>Historique des déponses</string>
+   </property>
+  </action>
+  <action name="actionCaisse">
+   <property name="text">
+    <string>Caisse</string>
+   </property>
+  </action>
+  <action name="actionBanque">
+   <property name="text">
+    <string>Banque</string>
+   </property>
+  </action>
+  <action name="actionTransfert">
+   <property name="text">
+    <string>Transfert</string>
+   </property>
+  </action>
+  <action name="actionJournal_des_recettes_deponces">
+   <property name="text">
+    <string>Journal des recettes / deponces </string>
+   </property>
+  </action>
+  <action name="actionCarte_de_fid_lite">
+   <property name="text">
+    <string>Carte de fidélite</string>
+   </property>
+  </action>
+  <action name="actionEtat_des_cheque_encaiss_s">
+   <property name="text">
+    <string>Etat des cheque encaissés</string>
+   </property>
+  </action>
+  <action name="actionEtat_des_cheque_non_ancaisses">
+   <property name="text">
+    <string>Etat des cheque non ancaisses</string>
+   </property>
+  </action>
+  <action name="actionDettes">
+   <property name="text">
+    <string>Dettes </string>
+   </property>
+  </action>
+  <action name="actionCr_ances_Journal_des_achats">
+   <property name="text">
+    <string>Créances </string>
+   </property>
+  </action>
+  <action name="actionD_claration_TVA_sur_achats">
+   <property name="text">
+    <string>Déclaration TVA sur achats</string>
+   </property>
+  </action>
+  <action name="actionD_claration_TVA_sur_ventes">
+   <property name="text">
+    <string>Déclaration TVA sur ventes</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
